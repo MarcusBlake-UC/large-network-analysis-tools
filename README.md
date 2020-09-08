@@ -1,6 +1,16 @@
 
 # large-network-analysis-tools
 
+An experimental adaptation of the ESRI large network analysis python script to accommodate very large OD matrices.
+
+The script was modified to calculate the driving distances between every ZIP Plus 4 codes and every type of service in the US State of Ohio. 
+
+The purpose is to create a detailed distance database that will support the calculation of a number of accessibility indexes e.g.   
+
+A  The script is modified to be iteratively applied to each County in Ohio 
+
+Input
+
 The tools and code samples here help you solve large network analysis problems in ArcGIS Pro. We have provided a python script that can solve a large origin destination cost matrix problem by chunking the input data, solving in parallel, and combining the results into a single output.
 
 ## Features
